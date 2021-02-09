@@ -17,7 +17,7 @@
       });
     }
   });
-
+  document.addEventListener('contextmenu', event => event.preventDefault());
   // Back to top button
   $(window).scroll(function() {
     if ($(this).scrollTop() > 100) {
